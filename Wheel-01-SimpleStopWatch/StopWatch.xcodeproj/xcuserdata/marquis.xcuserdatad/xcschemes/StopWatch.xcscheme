@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9547F5D21C7EDDAA00E8C769"
-               BuildableName = "CustomFont.app"
-               BlueprintName = "CustomFont"
-               ReferencedContainer = "container:CustomFont.xcodeproj">
+               BlueprintIdentifier = "95126BBB1C772B0F000EA89E"
+               BuildableName = "StopWatch.app"
+               BlueprintName = "StopWatch"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9547F5E61C7EDDAA00E8C769"
-               BuildableName = "CustomFontTests.xctest"
-               BlueprintName = "CustomFontTests"
-               ReferencedContainer = "container:CustomFont.xcodeproj">
+               BlueprintIdentifier = "95126BCF1C772B0F000EA89E"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9547F5F11C7EDDAA00E8C769"
-               BuildableName = "CustomFontUITests.xctest"
-               BlueprintName = "CustomFontUITests"
-               ReferencedContainer = "container:CustomFont.xcodeproj">
+               BlueprintIdentifier = "95126BDA1C772B0F000EA89E"
+               BuildableName = "StopWatchUITests.xctest"
+               BlueprintName = "StopWatchUITests"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9547F5D21C7EDDAA00E8C769"
-            BuildableName = "CustomFont.app"
-            BlueprintName = "CustomFont"
-            ReferencedContainer = "container:CustomFont.xcodeproj">
+            BlueprintIdentifier = "95126BBB1C772B0F000EA89E"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9547F5D21C7EDDAA00E8C769"
-            BuildableName = "CustomFont.app"
-            BlueprintName = "CustomFont"
-            ReferencedContainer = "container:CustomFont.xcodeproj">
+            BlueprintIdentifier = "95126BBB1C772B0F000EA89E"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9547F5D21C7EDDAA00E8C769"
-            BuildableName = "CustomFont.app"
-            BlueprintName = "CustomFont"
-            ReferencedContainer = "container:CustomFont.xcodeproj">
+            BlueprintIdentifier = "95126BBB1C772B0F000EA89E"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
