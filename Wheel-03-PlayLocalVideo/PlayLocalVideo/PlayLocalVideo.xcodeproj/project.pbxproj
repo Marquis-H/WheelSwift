@@ -14,6 +14,8 @@
 		9547F62B1C801CD200E8C769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9547F6291C801CD200E8C769 /* LaunchScreen.storyboard */; };
 		9547F6361C801CD200E8C769 /* PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6351C801CD200E8C769 /* PlayLocalVideoTests.swift */; };
 		9547F6411C801CD200E8C769 /* PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6401C801CD200E8C769 /* PlayLocalVideoUITests.swift */; };
+		9547F6511C80377C00E8C769 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6501C80377C00E8C769 /* VideoCell.swift */; };
+		9547F6551C80446200E8C769 /* emoji-zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9547F6521C803CE000E8C769 /* emoji-zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9547F63C1C801CD200E8C769 /* PlayLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLocalVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9547F6401C801CD200E8C769 /* PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
 		9547F6421C801CD200E8C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9547F6501C80377C00E8C769 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		9547F6521C803CE000E8C769 /* emoji-zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji-zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		9547F61F1C801CD200E8C769 /* PlayLocalVideo */ = {
 			isa = PBXGroup;
 			children = (
+				9547F6531C803CF000E8C769 /* Video */,
 				9547F6201C801CD200E8C769 /* AppDelegate.swift */,
 				9547F6221C801CD200E8C769 /* ViewController.swift */,
+				9547F6501C80377C00E8C769 /* VideoCell.swift */,
 				9547F6241C801CD200E8C769 /* Main.storyboard */,
 				9547F6271C801CD200E8C769 /* Assets.xcassets */,
 				9547F6291C801CD200E8C769 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				9547F6421C801CD200E8C769 /* Info.plist */,
 			);
 			path = PlayLocalVideoUITests;
+			sourceTree = "<group>";
+		};
+		9547F6531C803CF000E8C769 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9547F6521C803CE000E8C769 /* emoji-zone.mp4 */,
+			);
+			name = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9547F6551C80446200E8C769 /* emoji-zone.mp4 in Resources */,
 				9547F62B1C801CD200E8C769 /* LaunchScreen.storyboard in Resources */,
 				9547F6281C801CD200E8C769 /* Assets.xcassets in Resources */,
 				9547F6261C801CD200E8C769 /* Main.storyboard in Resources */,
@@ -258,6 +273,7 @@
 			files = (
 				9547F6231C801CD200E8C769 /* ViewController.swift in Sources */,
 				9547F6211C801CD200E8C769 /* AppDelegate.swift in Sources */,
+				9547F6511C80377C00E8C769 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				9547F6471C801CD200E8C769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9547F6481C801CD200E8C769 /* Build configuration list for PBXNativeTarget "PlayLocalVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				9547F64A1C801CD200E8C769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9547F64B1C801CD200E8C769 /* Build configuration list for PBXNativeTarget "PlayLocalVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				9547F64D1C801CD200E8C769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
