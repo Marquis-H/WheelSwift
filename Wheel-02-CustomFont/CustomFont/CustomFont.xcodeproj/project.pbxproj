@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		9547F5D71C7EDDAA00E8C769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F5D61C7EDDAA00E8C769 /* AppDelegate.swift */; };
 		9547F5D91C7EDDAA00E8C769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F5D81C7EDDAA00E8C769 /* ViewController.swift */; };
-		9547F5DC1C7EDDAA00E8C769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9547F5DA1C7EDDAA00E8C769 /* Main.storyboard */; };
 		9547F5DE1C7EDDAA00E8C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9547F5DD1C7EDDAA00E8C769 /* Assets.xcassets */; };
 		9547F5E11C7EDDAA00E8C769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9547F5DF1C7EDDAA00E8C769 /* LaunchScreen.storyboard */; };
 		9547F5EC1C7EDDAA00E8C769 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F5EB1C7EDDAA00E8C769 /* CustomFontTests.swift */; };
 		9547F5F71C7EDDAA00E8C769 /* CustomFontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F5F61C7EDDAA00E8C769 /* CustomFontUITests.swift */; };
+		9547F6071C7EEAD000E8C769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9547F6061C7EEAD000E8C769 /* Main.storyboard */; };
+		9547F60D1C7EEBD300E8C769 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9547F6091C7EEBD300E8C769 /* Gaspar Regular.otf */; };
+		9547F60E1C7EEBD300E8C769 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9547F60A1C7EEBD300E8C769 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		9547F60F1C7EEBD300E8C769 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9547F60B1C7EEBD300E8C769 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		9547F6101C7EEBD300E8C769 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9547F60C1C7EEBD300E8C769 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		9547F6131C7EEC6700E8C769 /* CustomFont.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6111C7EEC6700E8C769 /* CustomFont.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		9547F5D31C7EDDAA00E8C769 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9547F5D61C7EDDAA00E8C769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9547F5D81C7EDDAA00E8C769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9547F5DB1C7EDDAA00E8C769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9547F5DD1C7EDDAA00E8C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9547F5E01C7EDDAA00E8C769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9547F5E21C7EDDAA00E8C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		9547F5F21C7EDDAA00E8C769 /* CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9547F5F61C7EDDAA00E8C769 /* CustomFontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontUITests.swift; sourceTree = "<group>"; };
 		9547F5F81C7EDDAA00E8C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9547F6061C7EEAD000E8C769 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9547F6091C7EEBD300E8C769 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		9547F60A1C7EEBD300E8C769 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		9547F60B1C7EEBD300E8C769 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		9547F60C1C7EEBD300E8C769 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		9547F6121C7EEC6700E8C769 /* CustomFont.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomFont.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,14 @@
 		9547F5D51C7EDDAA00E8C769 /* CustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				9547F6081C7EEB8900E8C769 /* Fonts */,
 				9547F5D61C7EDDAA00E8C769 /* AppDelegate.swift */,
 				9547F5D81C7EDDAA00E8C769 /* ViewController.swift */,
-				9547F5DA1C7EDDAA00E8C769 /* Main.storyboard */,
 				9547F5DD1C7EDDAA00E8C769 /* Assets.xcassets */,
 				9547F5DF1C7EDDAA00E8C769 /* LaunchScreen.storyboard */,
 				9547F5E21C7EDDAA00E8C769 /* Info.plist */,
+				9547F6061C7EEAD000E8C769 /* Main.storyboard */,
+				9547F6111C7EEC6700E8C769 /* CustomFont.xcdatamodeld */,
 			);
 			path = CustomFont;
 			sourceTree = "<group>";
@@ -123,6 +135,17 @@
 				9547F5F81C7EDDAA00E8C769 /* Info.plist */,
 			);
 			path = CustomFontUITests;
+			sourceTree = "<group>";
+		};
+		9547F6081C7EEB8900E8C769 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9547F6091C7EEBD300E8C769 /* Gaspar Regular.otf */,
+				9547F60A1C7EEBD300E8C769 /* MFJinHei_Noncommercial-Regular.ttf */,
+				9547F60B1C7EEBD300E8C769 /* MFTongXin_Noncommercial-Regular.ttf */,
+				9547F60C1C7EEBD300E8C769 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9547F6071C7EEAD000E8C769 /* Main.storyboard in Resources */,
+				9547F60D1C7EEBD300E8C769 /* Gaspar Regular.otf in Resources */,
+				9547F6101C7EEBD300E8C769 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				9547F60E1C7EEBD300E8C769 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				9547F5E11C7EDDAA00E8C769 /* LaunchScreen.storyboard in Resources */,
+				9547F60F1C7EEBD300E8C769 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				9547F5DE1C7EDDAA00E8C769 /* Assets.xcassets in Resources */,
-				9547F5DC1C7EDDAA00E8C769 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9547F5D91C7EDDAA00E8C769 /* ViewController.swift in Sources */,
+				9547F6131C7EEC6700E8C769 /* CustomFont.xcdatamodeld in Sources */,
 				9547F5D71C7EDDAA00E8C769 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9547F5DA1C7EDDAA00E8C769 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9547F5DB1C7EDDAA00E8C769 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9547F5DF1C7EDDAA00E8C769 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -500,6 +520,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9547F6111C7EEC6700E8C769 /* CustomFont.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9547F6121C7EEC6700E8C769 /* CustomFont.xcdatamodel */,
+			);
+			currentVersion = 9547F6121C7EEC6700E8C769 /* CustomFont.xcdatamodel */;
+			path = CustomFont.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9547F5CB1C7EDDAA00E8C769 /* Project object */;
 }
