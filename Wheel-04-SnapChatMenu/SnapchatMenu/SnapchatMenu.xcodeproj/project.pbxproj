@@ -14,6 +14,12 @@
 		95D867ED1C83FF980055D59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D867EB1C83FF980055D59D /* LaunchScreen.storyboard */; };
 		95D867F81C83FF980055D59D /* SnapchatMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D867F71C83FF980055D59D /* SnapchatMenuTests.swift */; };
 		95D868031C83FF980055D59D /* SnapchatMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D868021C83FF980055D59D /* SnapchatMenuUITests.swift */; };
+		95D868111C8403190055D59D /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D868101C8403190055D59D /* RightView.xib */; };
+		95D868131C84045B0055D59D /* LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D868121C84045B0055D59D /* LeftView.xib */; };
+		95D868151C8429D50055D59D /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D868141C8429D50055D59D /* RightView.swift */; };
+		95D868171C842B060055D59D /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D868161C842B060055D59D /* LeftView.swift */; };
+		95D868191C842BB70055D59D /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D868181C842BB70055D59D /* CameraView.xib */; };
+		95D8681B1C842C090055D59D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D8681A1C842C090055D59D /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		95D867FE1C83FF980055D59D /* SnapchatMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D868021C83FF980055D59D /* SnapchatMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatMenuUITests.swift; sourceTree = "<group>"; };
 		95D868041C83FF980055D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D868101C8403190055D59D /* RightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightView.xib; sourceTree = "<group>"; };
+		95D868121C84045B0055D59D /* LeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftView.xib; sourceTree = "<group>"; };
+		95D868141C8429D50055D59D /* RightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
+		95D868161C842B060055D59D /* LeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
+		95D868181C842BB70055D59D /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
+		95D8681A1C842C090055D59D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				95D867E91C83FF980055D59D /* Assets.xcassets */,
 				95D867EB1C83FF980055D59D /* LaunchScreen.storyboard */,
 				95D867EE1C83FF980055D59D /* Info.plist */,
+				95D868101C8403190055D59D /* RightView.xib */,
+				95D868121C84045B0055D59D /* LeftView.xib */,
+				95D868141C8429D50055D59D /* RightView.swift */,
+				95D868161C842B060055D59D /* LeftView.swift */,
+				95D868181C842BB70055D59D /* CameraView.xib */,
+				95D8681A1C842C090055D59D /* CameraView.swift */,
 			);
 			path = SnapchatMenu;
 			sourceTree = "<group>";
@@ -229,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D868131C84045B0055D59D /* LeftView.xib in Resources */,
 				95D867ED1C83FF980055D59D /* LaunchScreen.storyboard in Resources */,
 				95D867EA1C83FF980055D59D /* Assets.xcassets in Resources */,
+				95D868191C842BB70055D59D /* CameraView.xib in Resources */,
 				95D867E81C83FF980055D59D /* Main.storyboard in Resources */,
+				95D868111C8403190055D59D /* RightView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +279,9 @@
 			files = (
 				95D867E51C83FF980055D59D /* ViewController.swift in Sources */,
 				95D867E31C83FF980055D59D /* AppDelegate.swift in Sources */,
+				95D868151C8429D50055D59D /* RightView.swift in Sources */,
+				95D8681B1C842C090055D59D /* CameraView.swift in Sources */,
+				95D868171C842B060055D59D /* LeftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
