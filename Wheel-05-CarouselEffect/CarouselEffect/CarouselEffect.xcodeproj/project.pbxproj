@@ -14,6 +14,8 @@
 		9518B93F1C853D6E009F633C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9518B93D1C853D6E009F633C /* LaunchScreen.storyboard */; };
 		9518B94A1C853D6E009F633C /* CarouselEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9491C853D6E009F633C /* CarouselEffectTests.swift */; };
 		9518B9551C853D6E009F633C /* CarouselEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9541C853D6E009F633C /* CarouselEffectUITests.swift */; };
+		9518B9631C88109F009F633C /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9621C88109F009F633C /* InterestCollectionViewCell.swift */; };
+		9518B9651C8810B0009F633C /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9641C8810B0009F633C /* Interest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9518B9501C853D6E009F633C /* CarouselEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9518B9541C853D6E009F633C /* CarouselEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselEffectUITests.swift; sourceTree = "<group>"; };
 		9518B9561C853D6E009F633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9518B9621C88109F009F633C /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		9518B9641C8810B0009F633C /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9518B93B1C853D6E009F633C /* Assets.xcassets */,
 				9518B93D1C853D6E009F633C /* LaunchScreen.storyboard */,
 				9518B9401C853D6E009F633C /* Info.plist */,
+				9518B9621C88109F009F633C /* InterestCollectionViewCell.swift */,
+				9518B9641C8810B0009F633C /* Interest.swift */,
 			);
 			path = CarouselEffect;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9518B9631C88109F009F633C /* InterestCollectionViewCell.swift in Sources */,
 				9518B9371C853D6E009F633C /* ViewController.swift in Sources */,
 				9518B9351C853D6E009F633C /* AppDelegate.swift in Sources */,
+				9518B9651C8810B0009F633C /* Interest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				9518B95B1C853D6E009F633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9518B95C1C853D6E009F633C /* Build configuration list for PBXNativeTarget "CarouselEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				9518B95E1C853D6E009F633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9518B95F1C853D6E009F633C /* Build configuration list for PBXNativeTarget "CarouselEffectUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				9518B9611C853D6E009F633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
